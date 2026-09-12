@@ -2,96 +2,110 @@
 
 
 
-# [Project Name] 🎯
+# Uninstaller
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Oasis
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Arunima N - NSS College of Engineering
+- Member 2: Anulakshmi C - NSS College of Engineering
+
 
 ### Project Description
-[2-3 lines about what your project does]
+
+Uninstaller is a deliberately useless Android application that randomly selects one of the user's installed apps and asks whether it should be uninstalled.
+
+It performs an unnecessarily serious-looking "analysis" before revealing its completely random decision.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+
+Choosing which app to uninstall can be a difficult decision.
+
+Why waste time making that decision yourself when an app can make it for you?
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+
+Uninstaller removes the burden of decision-making by randomly selecting an installed user app and presenting it as the "perfect" uninstall candidate.
+
+No usage analysis. No productivity metrics. Just questionable randomness. 🤔
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Kotlin, XML, Gradle Kotlin DSL
+- Android SDK, Jetpack Compose, AndroidX, Gradle, PackageManager API, Android Intent API
+- Jetpack Compose, AndroidX Activity Compose, Android Lifecycle, Kotlin Coroutines, Android PackageManager API, Android Intent API
+- Android Studio, Antigravity, Git, GitHub, Android Debug Bridge, Logcat
 
 ### Implementation
 For Software:
+
 # Installation
-[commands]
+`bash
+git clone https://github.com/aruni-ma-N/UselessUninstall.git
+cd UselessUninstall
 
 # Run
-[commands]
+`markdown
+1. Open the project in Android Studio.
+2. Connect an Android device or start an Android emulator.
+3. Select the device from the device selector.
+4. Click Run ▶.
+5. Follow the app's unnecessarily serious uninstall procedure. 🤔
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1]
+https://drive.google.com/file/d/13_YshxtumCKQwmBBbbPAnxjY5ukubPu5/view?usp=drivesdk
+Image showing apps before uninstalling.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2]
+https://drive.google.com/file/d/1TjiHm-fG5uU-uiG5pUop-YaceFBCiiTI/view?usp=drivesdk
+Image showing an app randomly selected to uninstall.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot3]
+https://drive.google.com/file/d/1tpqZHe91wCRY1Pvo_mUhuxkJ3hdsoDNi/view?usp=drivesdk
+Image showing app getting uninstalled
+
+![Screenshot3]
+https://drive.google.com/file/d/1owZkCbc16NBVSZTCcQi-9pwKO3x6U1oE/view?usp=drivesdk
+Image showing apps after uninstalling
+
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+![Workflow]
+Android PackageManager
+       ↓
+Installed apps
+       ↓
+AppInfo
+       ↓
+Kotlin Random
+       ↓
+Selected app
+       ↓
+Android Intent API
+       ↓
+System uninstall confirmation
 
-For Hardware:
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/file/d/1BGvLEVlJ9431EOqTTwo1nUYxdlfOymN1/view?usp=drivesdk
+The video demonstrates UselessUninstall's complete workflow: scanning installed applications, performing a deliberately overcomplicated analysis, randomly selecting a real installed application, presenting the selected app for confirmation, and dispatching an Android system uninstall request.
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Arunima N: UI/UX, Jetpack Compose, physical-device connection, APK testing, ADB & Logcat debugging 
+- Anulakshmi C: App-management backend, PackageManager, AppInfo, random selection, uninstall Intent & permissions
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
